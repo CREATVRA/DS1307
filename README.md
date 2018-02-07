@@ -9,7 +9,7 @@ Las siguientes son las funciones que trae la libreria:
 Inicia la librería y las configuraciones necesarias para usar el reloj.
  
 
-2.	" programar(int,int,int,int,int,int,int); " 
+2.	" programar(int, int, int, int, int, int, int); " 
 
 Esta función es la que programa el tiempo en el reloj. El formato de la hora esta en 24h. los días de la semana se programan en la variable WDIA, comenzando con el domingo como día # 1, lunes día # 2 y así sucesivamente. DIA2 indica los días del mes.
 Esta función retorna un valor Booleano “true” si la programación fue exitosa y retorna un valor “false” si la programación no se realizó adecuadamente. Los valores se deben escribir en el siguiente orden:
