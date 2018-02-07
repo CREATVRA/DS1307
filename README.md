@@ -32,38 +32,54 @@ Esta función retorna un valor Booleano “true” si la programación fue exito
 
 Esta función hace un test del Reloj para saber si está correctamente instalado o si está dañado.  Devuelve un valor booleano “false” si no se obtuvo comunicación con el reloj y retorna un valor “true” si el sensor está correctamente instalado.
 
+          boolean TEST = test_ds1307();
+          
  
 5.	" leer_segundo(); " 
 
 Esta función recibe los segundos almacenados en el reloj y los guarda en una variable “byte”
  
+          byte SEGUNDO = leer_segundo();
+          
 
-6.	" leer_minutos(); " 
+6.	" leer_minuto(); " 
 
 Esta función recibe los minutos almacenados en el reloj y los guarda en una variable “byte”
+
+          byte MINUTO = leer_minuto();
  
 
 7.	" leer_hora(); " 
 
 Esta función recibe la hora almacenada en el reloj y lo guarda en una variable “byte”
+
+          byte HORA = leer_hora();
  
 
 8.	" leer_wdia(); " 
 
 Esta función recibe el día de la semana almacenado en el reloj y lo guarda en una variable “byte”
+
+          byte DIA_DE_SEMANA = leer_wdia();
  
 
 9.	" leer_dia(); " 
 
 Esta función recibe el día del mes almacenado en el reloj y lo guarda en una variable “byte”
+
+          byte DIA_DEL_MES = leer_dia();
  
 
 10.	" leer_mes(); "
 
 Esta función recibe el mes almacenado en el reloj y lo guarda en una variable “byte”
+  
+          byte MES = leer_mes();
  
 
 11.	" leer_year(); " 
 
 Esta función recibe el año almacenado en el reloj y lo guarda en una variable “byte”
+
+          byte YEAR = leer_year();
 
