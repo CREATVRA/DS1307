@@ -1,5 +1,5 @@
 # DS1307
-Libreria para el Reloj En Tiempo Real DS1307 -CREATVRA -
+Libreria para el Reloj En Tiempo Real DS1307 -CREATVRA - creado por @DuvanP - Duvan Puerto
 
 Las siguientes son las funciones que trae la libreria:
 
